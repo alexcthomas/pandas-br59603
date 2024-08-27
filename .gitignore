@@ -1,0 +1,19 @@
+.ipynb_checkpoints/*
+__pycache__/
+*.egg-info/
+.pylintrc
+*.py[cod]
+*.prof
+*.pdb
+*.dll
+*.so
+x64
+*~
+~$*
+
+
+# Visual studio files
+.vscode/*
+.vs
+*.user
+
