@@ -17,7 +17,7 @@ You'll need
   - Confirm TestModule.pyd appears
   - `C:\python312\python -m virtualenv --symlinks venv`
   - `venv\Scripts\activate`
-  - `pip install pandas pyarrow`
+  - `pip install pyarrow`
   - `python test_module.py`
   - Comment out the first line of test_module.py and try again
 

@@ -59,12 +59,12 @@
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>C:\Python312\include;$(SolutionDir)pybind11/include</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalLibraryDirectories>C:\Python312\libs</AdditionalLibraryDirectories>
-      <OutputFile>$(OutDir)$(TargetName).pyd</OutputFile>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Python312\libs</AdditionalLibraryDirectories>
+      <OutputFile>$(OutDir)$(TargetName).pyd</OutputFile>
     </Link>
     <PostBuildEvent>
       <Command>copy /Y "$(TargetDir)$(ProjectName).pyd" "$(SolutionDir)
